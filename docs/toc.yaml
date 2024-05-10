@@ -9,3 +9,5 @@ items:
     href: about.md
   - name: Техническое задание
     href: specification.md
+  - name: Личные заметки при разработке
+    href: specification.md
