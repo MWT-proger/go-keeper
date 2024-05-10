@@ -6,16 +6,18 @@
 
 ## Документация
 
-Документация ведется и собирается с помощью инструмента [Diplodoc](https://github.com/diplodoc-platform/) и GravityUI
+#### Aвтоматически собирается и размещается на [mwt-proger.github.io/go-keeper](https://mwt-proger.github.io/go-keeper/)
 
-### Сборка актуальной версии
+Ведется и собирается с помощью инструмента [Diplodoc](https://github.com/diplodoc-platform/) и GravityUI
+
+### Сборка актуальной версии для локального запуска
 
 1. Собираем
 ```bash
 gh docs -i ./docs -o ./docs/build
 ```
 
-2. Запускаем локально
+2. Запускаем
 ```bash
 open docs/build/index.html 
 ```
