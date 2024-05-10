@@ -1,0 +1,11 @@
+href: index.md
+navigation:
+  logo:
+    url: ./index.html
+    text: GO-KEEPER
+
+items:
+  - name: О проекте
+    href: about.md
+  - name: Техническое задание
+    href: specification.md
