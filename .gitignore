@@ -22,3 +22,5 @@ go.work
 docs/build
 api/
 deployments/.env
+.vscode/
+__debug_*
