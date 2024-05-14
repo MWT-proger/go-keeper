@@ -3,7 +3,7 @@ package auth
 import (
 	"context"
 
-	"github.com/gofrs/uuid"
+	"github.com/google/uuid"
 )
 
 type contextKey string

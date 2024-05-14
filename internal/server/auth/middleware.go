@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/MWT-proger/go-keeper/configs/server/config"
-	"github.com/gofrs/uuid"
+	"github.com/google/uuid"
 )
 
 // AuthCookieMiddleware(next http.Handler) http.Handler — middleware-для входящих HTTP-запросов.

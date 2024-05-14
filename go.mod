@@ -3,8 +3,8 @@ module github.com/MWT-proger/go-keeper
 go 1.21.6
 
 require (
-	github.com/gofrs/uuid v4.4.0+incompatible
 	github.com/golang-jwt/jwt/v4 v4.5.0
+	github.com/google/uuid v1.6.0
 	go.uber.org/zap v1.27.0
 	golang.org/x/crypto v0.23.0
 )

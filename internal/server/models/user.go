@@ -3,7 +3,7 @@ package models
 import (
 	"time"
 
-	"github.com/gofrs/uuid"
+	"github.com/google/uuid"
 )
 
 type User struct {
@@ -23,10 +23,7 @@ func (d *User) GetArgsInsert() []any {
 }
 
 func NewUser() (*User, error) {
-	newUUID, err := uuid.NewV4()
-	if err != nil {
-		return nil, err
-	}
+	newUUID := uuid.New()
 	o := &User{ID: newUUID, CreatedAt: time.Now()}
 	return o, nil
 }

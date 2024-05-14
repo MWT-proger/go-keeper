@@ -4,12 +4,12 @@ import (
 	"context"
 	"testing"
 
-	"github.com/gofrs/uuid"
+	"github.com/google/uuid"
 )
 
 func TestWithUserID(t *testing.T) {
 	ctx := context.Background()
-	userID := uuid.Must(uuid.NewV4())
+	userID := uuid.New()
 
 	ctx = WithUserID(ctx, userID)
 
@@ -25,7 +25,7 @@ func TestWithUserID(t *testing.T) {
 
 func TestUserIDFrom(t *testing.T) {
 	ctx := context.Background()
-	userID := uuid.Must(uuid.NewV4())
+	userID := uuid.New()
 
 	ctx = context.WithValue(ctx, userIDKey, userID)
 
